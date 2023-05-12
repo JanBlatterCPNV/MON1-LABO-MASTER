@@ -10,7 +10,7 @@
 
   Depuis la page du repository, cliquer sur Fork 
 
-![image-20230510203158639](C:\Users\Janbl\AppData\Roaming\Typora\typora-user-images\image-20230510203158639.png)
+![image-20230510203158639](./assets/image-20230510203158639.png)
 
 * [x] Clone your own repo in your local machine
 
@@ -22,7 +22,7 @@ git clone https://github.com/JanBlatterCPNV/MON1-Labo-Master
 
 [OUTPUT]
 
-![image-20230510203003173](C:\Users\Janbl\AppData\Roaming\Typora\typora-user-images\image-20230510203003173.png)
+![image-20230510203003173](./assets/image-20230510203003173.png)
 
 * [x] Init Git flow (with standard settings)
 
@@ -33,9 +33,9 @@ git flow init
 
 [OUTPUT]
 
-![image-20230510202730745](C:\Users\Janbl\AppData\Roaming\Typora\typora-user-images\image-20230510202730745.png)
+![image-20230510202625537](./assets/image-20230510202625537.png)
 
-- [ ] Integrate updates from upstream (main) into your repository (develop)
+- [x] Integrate updates from upstream (main) into your repository (develop)
 
 ```
 [INPUT]
@@ -44,11 +44,9 @@ git merge develop // update la branche develop depuis la branche main
 ```
 
 [OUTPUT]
-//TODO
+![image-20230510210042737](./assets/image-20230510210042737.png)
 
-![image-20230510210042737](C:\Users\Janbl\AppData\Roaming\Typora\typora-user-images\image-20230510210042737.png)
-
-* [ ] Create a branch feature called "terraformBasicScript"
+* [x] Create a branch feature called "terraformBasicScript"
 
 ```
 [INPUT]
@@ -58,9 +56,9 @@ git flow feature start "terraformBasicScript"
 [OUTPUT]
 //TODO
 
-![image-20230510213746080](C:\Users\Janbl\AppData\Roaming\Typora\typora-user-images\image-20230510213746080.png)
+![image-20230510213746080](./assets/image-20230510213746080.png)
 
-* [ ] Add this code and commit it (feat:add basic terraform script")
+* [x] Add this code and commit it (feat:add basic terraform script")
 
 ```
 terraform {
@@ -96,7 +94,7 @@ git commit -m "add basic terraform script"
 
 //TODO
 
-![image-20230510214621437](C:\Users\Janbl\AppData\Roaming\Typora\typora-user-images\image-20230510214621437.png)
+![image-20230510214621437](./assets/image-20230510214621437.png)
 
 * [x] Finish the feature
 
@@ -109,7 +107,7 @@ git flow feature finish terraformBasicScript
 [OUTPUT]
 //TODO
 
-![image-20230510214845979](C:\Users\Janbl\AppData\Roaming\Typora\typora-user-images\image-20230510214845979.png)
+![image-20230510214845979](./assets/image-20230510214845979.png)
 
 * Push this modification on your repository
 
@@ -119,7 +117,7 @@ git push --set-upstream origin develop // push la modification depuis la branche
 ```
 
 [OUTPUT]
-//TODO![image-20230510215231561](C:\Users\Janbl\AppData\Roaming\Typora\typora-user-images\image-20230510215231561.png)
+![image-20230510215226187](./assets/image-20230510215226187.png)
 
 * What happens to the feature/branch ?
 
@@ -151,7 +149,7 @@ Summary of actions:
 Screenshot pull request on github
 ```
 
-![image-20230510220430838](C:\Users\Janbl\AppData\Roaming\Typora\typora-user-images\image-20230510220430838.png)
+![image-20230510220430838](./assets/image-20230510220430838.png)
 
 * Notify him using a issue "Could you please review my pull request ?"
 
@@ -160,4 +158,4 @@ Screenshot pull request on github
 Screenshot issue on github
 ```
 
-![image-20230510221441098](C:\Users\Janbl\AppData\Roaming\Typora\typora-user-images\image-20230510221441098.png)
+![image-20230510221441098](./assets/image-20230510221441098.png)
