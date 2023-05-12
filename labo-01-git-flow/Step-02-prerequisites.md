@@ -13,20 +13,20 @@ Pour Linux, [here is the procedure.](https://howtoinstall.co/en/git-flow)
 
 ```
 [INPUT]
-//TODO
+sudo apt-get install git-flow 
 
 [OUTPUT]
-//TODO
+télécharge les paquets de git flow et installe après confirmation
 ```
 
-* [ ] Confirm the installed version
+* [x] Confirm the installed version
 
 ```
 [INPUT]
-//TODO
+git flow version
 
 [OUTPUT]
-//TODO
+1.12.3 (AVH Edition)
 ```
 
 * [ ] What do you think about this release?
@@ -41,50 +41,54 @@ Pour Linux, [here is the procedure.](https://howtoinstall.co/en/git-flow)
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Source : A successful git branching model</p></figcaption></figure>
 
-* [ ] Which branches are persistent and what do they contain?
+* [x] Which branches are persistent and what do they contain?
 
 ```
-//TODO
+Main -> la branche principale où le code doit être toujours à jour et fonctionnel
+
+Develop -> la branche de développement où on peut travailler et tester sans déranger le branche principale 
 ```
 
-* [ ] Why do we have to merge hotfix in both master and develop branches, but not into all active feature branches?
+* [x] Why do we have to merge hotfix in both master and develop branches, but not into all active feature branches?
 
 ```
-//TODO
+Afin de pouvoir travailler dans la branche voulue avec les hotfix récemment fixé, si on le fait pas, on codera sur une branche dont l'erreur est toujours là
 ```
 
 ## Initialize git flow on an existing project
 
-* [ ] What happens when you run the "git flow init" command on an existing local repository?
+* [x] What happens when you run the "git flow init" command on an existing local repository?
 
 ```
-//TODO
-```
+Le message d'erreur apparaît "Working tree contains unstaged changes. aborting"
 
-* [ ] When do we need to make this git command?
 
 ```
-//TODO
+
+* [x] When do we need to make this git command?
+
+```
+Après avoir cloné un dépot vierge, ensuite taper "git flow init" pour initialiser les branches de bases dans le répertoire local
 ```
 
 ## Practice the basic git commands
 
 [Source](https://www.atlassian.com/git/glossary)
 
-* [ ] What does this git command "git add -all" achieve (.gitignore impacts)?
+* [x] What does this git command "git add -all" achieve (.gitignore impacts)?
 
 ```
-//TODO
+git add -all ajoute tout , même les données de .gitignore et c'est pas le but 
 ```
 
-* [ ] What does this git command "git status" achieve?
+* [x] What does this git command "git status" achieve?
 
 ```
-//TODO
+Affiche la branche et les /dossier/Fichiers qui ont été modifiés. 
 ```
 
-* [ ] What does this git command "git remote add upstream \<url>" achieve?
+* [x] What does this git command "git remote add upstream \<url>" achieve?
 
 ```
-//TODO
+cette commande permet de "remote" un dépot à distance afin de pouvoir agir avec eux. 
 ```
